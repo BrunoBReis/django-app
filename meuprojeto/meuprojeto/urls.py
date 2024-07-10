@@ -31,6 +31,8 @@ urlpatterns = [
     path('about/', views.about),
     # Veja dentro do app posts a url
     path('posts/', include('posts.urls')),
+    # users page
+    path('users/', include('users.urls')),
 ]
 
 # aonde encontrar as imagens
