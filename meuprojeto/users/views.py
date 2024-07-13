@@ -9,7 +9,7 @@ from django.contrib.auth import login
 # Create your views here.
 
 
-def register_page(request):
+def register_view(request):
     if request.method == "POST":
         form = UserCreationForm(request.POST)
         if form.is_valid():

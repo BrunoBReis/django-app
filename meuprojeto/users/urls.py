@@ -6,6 +6,6 @@ app_name = 'users'
 
 urlpatterns = [
     # Como nao existe url esta e a pagina default
-    path('register/', views.register_page, name="register"),
+    path('register/', views.register_view, name="register"),
     path('login/', views.login_view, name="login"),
 ]
