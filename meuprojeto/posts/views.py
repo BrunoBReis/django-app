@@ -7,12 +7,12 @@ from .models import Post
 # Create your views here.
 
 
-def posts_list(request):
+def posts_list_view(request):
     """ Mostra todos os posts """
     posts = Post.objects.all().order_by('-date')
     return render(request, 'posts/posts_list.html', {'posts': posts})
 
-def post_page(request, slug):
+def post_page_view(request, slug):
     """ Mostra a pagina do post """
     # verificaodr se esta tudo certo 
     # return HttpResponse(slug)
