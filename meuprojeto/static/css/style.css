@@ -87,10 +87,25 @@ a:hover {
 }
 
 .errorlist {
-  color: #F00;
+  color: #f00;
   margin-left: 2rem;
 }
 
 .errorlist li::marker {
-  content: '🚨 ';
+  content: "🚨 ";
+}
+
+.logout {
+  display: inline-block;
+}
+
+.logout-button {
+  font-size: 2.5rem;
+  background-color: black;
+  border: none;
+  color: #81dbb8;
+}
+
+.logout-button:hover {
+  opacity: 0.85;
 }
