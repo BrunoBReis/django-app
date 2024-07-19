@@ -2,29 +2,39 @@
 
 `$python3 -m venv .venv`
     - cira um ambiente virtual do python onde se consegue dockerizar todos as dependencias de pip
+
 `$source .venv/bin/activate`
     - ativa o ambiente virtual
+
 `$deactivate`
     - desativa o ambiente virtual
+
 `$source deactivate`
     - forca o fechamento do ambiente virtual
+
 `$python3 -m pip install Django`
     - instalando o Django 
+
 `python3 -m pip install --upgrade pip`
     - upgrade pip version
+
 `django-admin startproject meuprojeto`
     - inicia um projeto em Django
+
 `python3 manage.py statapp posts`
     - inicia um posts no django
+
 `python3 manage.py makemigrations`
     - inicializa o model para fazer a migracao
+
 `python3 menage.py migrate`
     - aplica todas as migracoes (existem migracoes criadas pelo proprio django)
+
 `python3 manage.py shell`
     - inicializa o python com o shell
+
 `python3 manage.py createsuperuser`
     - cria um superusuario para a pagina de admin
-
 
 ## Fluxo para comecar o projeto
 
